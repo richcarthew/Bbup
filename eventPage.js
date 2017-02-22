@@ -16,13 +16,9 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
 	var x = new Audio("stretch.mp3");
 	
 	x.play();
-	
-	
 	x.onplay = function ()
 		{
-  			// alert("Stretch!");
+  			// further actions
 		}
 		
-  
-
 });

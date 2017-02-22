@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// *** IMPORTANT !!! *** - the var searchURL in getImageUrl func is obsolete, but this boiler plate is still instructional. 
+// *** IMPORTANT !!! **** - the var searchURL in getImageUrl func is obsolete, but this boiler plate is still instructional. 
 
 /**
  * Get the current URL.

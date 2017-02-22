@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bbpmk Stretch Reminder",
+  "description": "This extension when added to Chrome and activated will remind you (via Audio) to stretch once an hour when set to on.",
+  "version": "1.9",
+
+  "permissions": [
+    "alarms"
+  ],
+
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
